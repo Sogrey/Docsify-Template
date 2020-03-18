@@ -1,0 +1,26 @@
+{
+  "name": "docsify-template",
+  "version": "1.0.0",
+  "description": "Docsify 模板项目",
+  "main": "index.js",
+  "dependencies": {
+    "docsify-cli": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sogrey/Docsify-Template.git"
+  },
+  "keywords": [
+    "Docsify"
+  ],
+  "author": "Sogrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sogrey/Docsify-Template/issues"
+  },
+  "homepage": "https://github.com/Sogrey/Docsify-Template#readme"
+}
