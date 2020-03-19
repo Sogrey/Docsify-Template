@@ -104,7 +104,7 @@
         var h1 = H1s[0];
         var title = h1.id;
         console.log(title);
-        if (titleOld != title && titleOld != 'docsify-template') {
+        if (titleOld != title && title != 'docsify-template') {
           titleOld = title;
           gitalk = new Gitalk({
             clientID: '2eea8db1d15a57751622',
