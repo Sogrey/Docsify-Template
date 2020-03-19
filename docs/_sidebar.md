@@ -4,4 +4,4 @@
 
 - Getting started
 
-  - [快速入门](quick-start.md)
+  - [快速入门](pages/quick-start.md)

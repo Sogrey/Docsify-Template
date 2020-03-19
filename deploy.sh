@@ -29,5 +29,3 @@ git commit -m 'deploy master'
 git push -f https://github.com/Sogrey/Docsify-Template.git master
 
 echo -e "\033[32;40m done \033[0m "
-
-cd -
