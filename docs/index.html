@@ -59,7 +59,7 @@
       div.id = "gitalk-container";
       div.style = "margin: 0 80px 50px;";
       divParent.appendChild(div);
-      
+
       initGitalk();
     }
 
@@ -71,8 +71,8 @@
     //监听触发操作
     function hashChangeFire() {
       var gitalkContainer = document.createElement("gitalk-container");
-      if(gitalkContainer){
-        gitalkContainer.innerHTML="<div>Loading...</div>";
+      if (gitalkContainer) {
+        gitalkContainer.innerHTML = "<div>Loading...</div>";
       }
       setTimeout(() => {
         initGitalk()
@@ -96,14 +96,15 @@
 
     var titleOld = "docsify-template";
     var gitalk;
-    function initGitalk() {      
+
+    function initGitalk() {
       var mainContent = document.getElementById("main");
       var H1s = mainContent.querySelectorAll('h1');
       if (H1s.length > 0) {
         var h1 = H1s[0];
         var title = h1.id;
         console.log(title);
-        if (titleOld != title) {
+        if (titleOld != title && titleOld != 'docsify-template') {
           titleOld = title;
           gitalk = new Gitalk({
             clientID: '2eea8db1d15a57751622',
