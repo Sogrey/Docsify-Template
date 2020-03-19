@@ -4,7 +4,7 @@
 
 # Docsify-Template
 
-> Docsify-Template
+> Docsify 模板项目
 
 
 [GitHub](https://github.com/Sogrey/Docsify-Template)
