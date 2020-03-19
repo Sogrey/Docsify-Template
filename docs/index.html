@@ -106,6 +106,7 @@
         console.log(title);
         if (titleOld != title && title != 'docsify-template') {
           titleOld = title;
+          gitalk = null;
           gitalk = new Gitalk({
             clientID: '2eea8db1d15a57751622',
             clientSecret: '91e8bdf9843aaa0cb793bcb83795fa199549795f',
