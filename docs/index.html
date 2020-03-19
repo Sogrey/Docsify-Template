@@ -59,7 +59,7 @@
       div.id = "gitalk-container";
       div.style = "margin: 0 80px 50px;";
       divParent.appendChild(div);
-
+      
       initGitalk();
     }
 
@@ -93,6 +93,10 @@
     var titleOld = "docsify-template";
     var gitalk;
     function initGitalk() {
+      var gitalkContainer = document.createElement("gitalk-container");
+      if(gitalkContainer){
+        gitalkContainer.innerHTML="";
+      }
       var mainContent = document.getElementById("main");
       var H1s = mainContent.querySelectorAll('h1');
       if (H1s.length > 0) {
