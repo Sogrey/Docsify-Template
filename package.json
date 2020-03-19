@@ -2,7 +2,6 @@
   "name": "docsify-template",
   "version": "1.0.0",
   "description": "Docsify 模板项目",
-  "main": "index.js",
   "dependencies": {
     "docsify-cli": "^4.4.0"
   },
