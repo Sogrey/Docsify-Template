@@ -12,29 +12,22 @@
 </head>
 
 <body>
-  <nav>
-    <a href="#/">首页</a>
-    <a href="https://github.com/Sogrey/Docsify-Template">github</a>
-  </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: 'docsify-template',
       repo: 'https://github.com/Sogrey/Docsify-Template',
-      loadSidebar: '_sidebar.md',//左侧目录
-      loadNavbar: true, //菜单栏
-      coverpage: true, //封面
-      coverpage: {
+      loadSidebar: '_sidebar.md', //左侧目录
+      loadNavbar: '_navbar.md', //菜单栏
+      coverpage: {//封面
         '/': '_coverpage.md'
       },
       subMaxLevel: 2,
-      
-      // routerMode: 'history',
       alias: {
         // '/_sidebar.md': '/sidebar.md'
       },
       auto2top: true,
-      // homepage: 'README.md',
+      homepage: 'README.md',
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>

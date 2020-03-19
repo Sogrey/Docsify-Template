@@ -1,4 +1,6 @@
-<!-- ![logo](https://sogrey.top/VuepressBlogTemplate/img/logo.png) -->
+<!-- 封面页 -->
+
+![logo](https://sogrey.top/img/logo/sogrey.github.io.svg)
 
 # Docsify-Template
 
