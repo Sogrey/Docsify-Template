@@ -70,6 +70,10 @@
 
     //监听触发操作
     function hashChangeFire() {
+      var gitalkContainer = document.createElement("gitalk-container");
+      if(gitalkContainer){
+        gitalkContainer.innerHTML="";
+      }
       setTimeout(() => {
         initGitalk()
       }, 1000);
@@ -92,11 +96,7 @@
 
     var titleOld = "docsify-template";
     var gitalk;
-    function initGitalk() {
-      var gitalkContainer = document.createElement("gitalk-container");
-      if(gitalkContainer){
-        gitalkContainer.innerHTML="";
-      }
+    function initGitalk() {      
       var mainContent = document.getElementById("main");
       var H1s = mainContent.querySelectorAll('h1');
       if (H1s.length > 0) {
