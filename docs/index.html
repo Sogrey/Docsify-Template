@@ -72,7 +72,7 @@
     function hashChangeFire() {
       var gitalkContainer = document.createElement("gitalk-container");
       if(gitalkContainer){
-        gitalkContainer.innerHTML="";
+        gitalkContainer.innerHTML="<div>Loading...</div>";
       }
       setTimeout(() => {
         initGitalk()
