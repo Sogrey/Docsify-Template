@@ -86,6 +86,9 @@
         }
       },
       plugins: [
+
+        // 编辑
+
         EditOnGithubPlugin.create(
           'https://github.com/Sogrey/Docsify-Template/tree/master/docs/',
           null,
@@ -96,6 +99,8 @@
               return 'edit on github'
             }
           }),
+
+        // gitalk
 
         function (hook, vm) {
           hook.doneEach(function () {
@@ -113,13 +118,13 @@
 
             var mainContent = document.getElementById("main");
             var H1s = main.querySelectorAll('h1');
+            //!! 注意：这里是以页面内容h1标签文本来确定评论，所以标题一旦确定不要轻易修改
             if (H1s.length > 0) {
               var h1 = H1s[0];
               var title = h1.id;
               console.log(title);
               if (titleOld != title && title != 'docsify-template') {
                 titleOld = title;
-
 
                 divEle = domObj.create("div");
                 divEle.id = "gitalk-container-" + title;
@@ -139,74 +144,6 @@
         }
       ],
     }
-
-    // window.onload = function () {
-    //   var mainContent = document.getElementById("main");
-    //   //获取div  
-    //   var divParent = mainContent.parentNode;
-
-    //   //换行  
-    //   var div = document.createElement("div");
-    //   div.id = "gitalk-container";
-    //   div.style = "margin: 0 80px 50px;";
-    //   divParent.appendChild(div);
-
-    //   initGitalk();
-    // }
-
-    // //监听触发操作
-    // function hashChangeFire() {
-    //   var gitalkContainer = document.createElement("gitalk-container");
-    //   if (gitalkContainer) {
-    //     gitalkContainer.innerHTML = "<div>Loading...</div>";
-    //   }
-    //   setTimeout(() => {
-    //     initGitalk()
-    //   }, 1000);
-    // }
-
-    // //url变化监听器
-    // if (('onhashchange' in window) && ((typeof document.documentMode === 'undefined') || document.documentMode == 8)) {
-    //   // 浏览器支持onhashchange事件
-    //   window.onhashchange = hashChangeFire; // TODO，对应新的hash执行的操作函数
-    // } else {
-    //   // 不支持则用定时器检测的办法
-    //   setInterval(function () {
-    //     // 检测hash值或其中某一段是否更改的函数， 在低版本的iE浏览器中通过window.location.hash取出的指和其它的浏览器不同，要注意
-    //     var ischanged = isHashChanged();
-    //     if (ischanged) {
-    //       hashChangeFire(); // TODO，对应新的hash执行的操作函数
-    //     }
-    //   }, 150);
-    // }
-
-    // var titleOld = "docsify-template";
-    // var gitalk;
-
-    // function initGitalk() {
-    //   var mainContent = document.getElementById("main");
-    //   var H1s = mainContent.querySelectorAll('h1');
-    //   if (H1s.length > 0) {
-    //     var h1 = H1s[0];
-    //     var title = h1.id;
-    //     console.log(title);
-    //     if (titleOld != title && title != 'docsify-template') {
-    //       titleOld = title;
-    //       gitalk = null;
-    //       gitalk = new Gitalk({
-    //         clientID: '2eea8db1d15a57751622',
-    //         clientSecret: '91e8bdf9843aaa0cb793bcb83795fa199549795f',
-    //         repo: 'Docsify-Template',
-    //         owner: 'Sogrey',
-    //         admin: ['Sogrey'],
-    //         title: title,
-    //         id: title, // Ensure uniqueness and length less than 50
-    //         distractionFreeMode: false // Facebook-like distraction free mode
-    //       })
-    //       gitalk.render('gitalk-container');
-    //     }
-    //   }
-    // }
   </script>
 </body>
 
