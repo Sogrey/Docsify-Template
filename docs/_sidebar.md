@@ -6,7 +6,7 @@
 
   - [快速入门](pages/quick-start.md)
 
-- [emoji](pages/emoji-list)
+- [emoji](pages/emoji-list.md)
 
 ---
 
