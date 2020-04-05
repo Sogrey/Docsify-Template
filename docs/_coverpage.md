@@ -8,4 +8,4 @@
 
 
 [GitHub](https://github.com/Sogrey/Docsify-Template)
-[开始阅读](/pages/quick-start)
+[开始阅读](/quick-start.md)
