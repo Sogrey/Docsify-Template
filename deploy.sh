@@ -23,9 +23,9 @@ echo -e "\033[32;40m [2/2] \033[0m commit 2 master branch"
 
 git init
 git add -A
-git commit -m 'deploy master'
+git commit -m 'deploy offset'
 
 # 如果你想要部署到 https://USERNAME.github.io
-git push -f https://github.com/Sogrey/Docsify-Template.git master
+git push -f https://github.com/Sogrey/Docsify-Template.git offset
 
 echo -e "\033[32;40m done \033[0m "

@@ -1,0 +1,58 @@
+{
+  "_from": "github-repo-widget.js",
+  "_id": "github-repo-widget.js@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-m1aCgmhraCYVfGyAeVw23tUeHJE=",
+  "_location": "/github-repo-widget.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "github-repo-widget.js",
+    "name": "github-repo-widget.js",
+    "escapedName": "github-repo-widget.js",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/github-repo-widget.js/download/github-repo-widget.js-1.0.2.tgz",
+  "_shasum": "9b568282686b6826157c6c80795c36ded51e1c91",
+  "_spec": "github-repo-widget.js",
+  "_where": "E:\\workspace\\book\\books\\Docsify-Template",
+  "author": {
+    "name": "atool",
+    "url": "http://www.atool.org"
+  },
+  "bugs": {
+    "url": "https://github.com/hustcc/GitHub-Repo-Widget.js/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A good looking github repository widget to add to your website. Not depends on jQuery or Other.",
+  "devDependencies": {},
+  "homepage": "http://www.atool.org/",
+  "keywords": [
+    "github",
+    "repository",
+    "widget",
+    "website"
+  ],
+  "license": "MIT",
+  "main": "GithubRepoWidget.js",
+  "name": "github-repo-widget.js",
+  "officialName": "GitHub-Repo-Widget.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hustcc/GitHub-Repo-Widget.js.git"
+  },
+  "scripts": {
+    "test": "node tests/index"
+  },
+  "summary": "A good looking github repository widget to add to your website. Not depends on jQuery or Other.",
+  "version": "1.0.2"
+}
