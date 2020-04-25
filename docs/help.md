@@ -48,6 +48,10 @@ $ docsify serve
 $ docsify serve --port 3333
 ```
 
+``` bash
+npm start # 启动
+```
+
 ## 部署到iis
 
 只需要将网站物理路径指向`docs`目录，但需要注意的是需要添加`.md`文件的MIME
