@@ -48,8 +48,12 @@ $ docsify serve
 $ docsify serve --port 3333
 ```
 
+本项目可使用以下命令快捷使用：
+
 ``` bash
+npm install
 npm start # 启动
+npm run deploy #上传github
 ```
 
 ## 部署到iis
