@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Docsify 模板项目",
   "dependencies": {
-    "docsify-cli": "^4.4.0"
+    "docsify": "^4.11.4",
+    "docsify-cli": "^4.4.1",
+    "docsify-cli-hotfix": "^4.4.1"
   },
   "devDependencies": {
     "docsify-pdf-converter": "^2.0.7"
