@@ -8,7 +8,8 @@
     "docsify-cli-hotfix": "^4.4.1"
   },
   "devDependencies": {
-    "docsify-pdf-converter": "^2.0.7"
+    "docsify-pdf-converter": "^2.0.7",
+    "dot-prop": ">=4.2.1"
   },
   "scripts": {
     "start": "docsify serve docs --port 3033",
