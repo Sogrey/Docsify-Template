@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Docsify 模板项目",
   "dependencies": {
-    "docsify": "^4.11.4",
+    "docsify": "^4.12.0",
     "docsify-cli": "^4.4.1",
     "docsify-cli-hotfix": "^4.4.1"
   },
